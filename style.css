@@ -3,3 +3,83 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+.logoText {
+    color: #553100;
+    font-size:xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 50px;
+}
+
+.navLinks {
+    float: right;
+    background-color: #805215;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    width: 95px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navLinks:hover {
+    cursor: pointer;
+}
+
+.navLinks2 {
+    background-color: #805215;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navLinks2:hover {
+    cursor: pointer;
+}
+
+header {
+    background-color: #FFDBAA;
+    padding-top: 17px;
+    padding-bottom: 30px;
+}
+
+.mainArea {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #D4A76A;
+}
+
+.mainArea > div {
+    height:140px;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 25%;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 8px;
+}
+
+h4 {
+    margin: 5px;
+}
